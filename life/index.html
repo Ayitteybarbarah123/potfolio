@@ -8,45 +8,62 @@
     <link rel="stylesheet" href="./bootstrap-4.5.1-dist/css/bootstrap.min.css">
     <style>
 
+   .cards-columns {
+     text-align: center;
+     padding: 10px;
+   }
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
         }
+
+        
         body {
             background-color: aqua;
+        }
+
+        .main-nav{
+          background-color: pink;
+        }
+
+        .search{
+          background-color: lime;
         }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-           <a class="nav-link" href="../index.html">HOME</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Life</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Money</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Peace</a>
-          </li>
-          <li class="nav-item active">
-          <a class="nav-link" href="#">Explore</a>
-          </li>
-              <form action="">
-                <input class="form-inline"  style="position: absolute; right: 0;" type="text" placeholder="Search">
-                
-            <button class="btn btn-success" style="position: absolute; right: 0;">Search</button>
-            </form>
-          
-        </div>
-        </ul>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light main-nav">
+    <a class="navbar-brand" href="#">BARBIE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Life</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Money</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Peace</a>
+        </li>
+        
+        
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 search" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
       
 
 <div class="container">
@@ -70,6 +87,18 @@ data-slide-to="2"></li>
 
  <li data-target="#carouselExample" 
  data-slide-to="4"></li>
+
+ <li data-target="#carouselExample" 
+ data-slide-to="5"></li>
+
+ <li data-target="#carouselExample"
+ data-slide-to="6"></li>
+
+ <li data-target="#carouselExample"
+ data-slide-to="7"></li>
+
+ <li data-target="#carouselExample"
+ data-slide-to="8"></li>
  
 </ol>
      <div class="carousel-inner">
@@ -84,6 +113,21 @@ data-slide-to="2"></li>
      alt="yes" 
      />
      </div>
+     <div class="carousel-item">
+      <img src="./b5.jpg"
+      alt="yes"
+      />
+     </div>
+     <div class="carousel-item">
+      <img src="./EYzG.jpg"
+      alt="yes"
+      />
+     </div>
+     <div class="carousel-item">
+      <img src="./saweetie.jpg"
+      alt="yes"
+      />
+     </div>
     <div class="carousel-item">
         <img src="./jayda-wayda-with-lil-baby.jpg"
          alt="yes"
@@ -92,10 +136,16 @@ data-slide-to="2"></li>
     <div class="carousel-item">
         <img src="./77561253.jpg"
          alt="yes">
+         />
     </div>
     <div class="carousel-item">
          <img src="./IMG-20200803-WA0007.jpg"
           alt="yes"
+          />
+     </div>
+     <div class="carousel-item">
+      <img src="./mike.jpg"
+          alt="yes">
           />
      </div>
      </div>
@@ -118,10 +168,10 @@ data-slide-to="2"></li>
 <br>
 <div class="card-columns">
 <div class="card" style="width:300px">
-    <img class="card-img-top" src="./77561253.jpg" alt="Card image">
+    <img class="card-img-top" src="./b5.jpg" alt="Card image">
     <div class="card-body">
-      <h4 class="card-title">Labadi Beach Hotel</h4>
-      <p class="card-text">Have fun on our lands</p>
+      <h4 class="card-title">Lamba</h4>
+      <p class="card-text">Have fun</p>
       <a href="#" class="btn btn-primary stretched-link">See Profile</a>
     </div>
   </div>
@@ -133,8 +183,34 @@ data-slide-to="2"></li>
       <p class="card-text">Explore your body</p>
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
-  </div>
-  
+</div>
+
+<div class="card" style="width:300px">
+    <img class="card-img-top" src="./mike.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">fun</h4>
+      <p class="card-text">Discover the best</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+</div>
+<div class="card" style="width:300px">
+    <img class="card-img-top" src="./b.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">World</h4>
+      <p class="card-text">Preach the gosple</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+</div>
+
+<div class="card" style="width:300px">
+    <img class="card-img-top" src="./EYzG.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Wonderland</h4>
+      <p class="card-text">Imagine the greatness</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+</div>
+
 <div class="card" style="width:300px">
     <img class="card-img-top" src="./IMG-20200803-WA0006.jpg" alt="Card image">
     <div class="card-body">
@@ -152,3 +228,4 @@ data-slide-to="2"></li>
     
 </body>
 </html>
+
