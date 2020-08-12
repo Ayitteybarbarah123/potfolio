@@ -67,7 +67,7 @@
    /* test it with: body{
          display:none;
      } */
- 
+
    body {
      overflow-x: hidden;
    }
